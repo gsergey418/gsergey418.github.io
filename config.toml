@@ -48,7 +48,7 @@ url = "https://github.com/gsergey418"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-mastodon"
-title = "GitHub"
+title = "Mastodon"
 url = "https://metalhead.club/@gsergey418"
 
 [menu]
