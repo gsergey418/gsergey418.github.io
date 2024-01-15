@@ -46,6 +46,11 @@ icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/gsergey418"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-mastodon"
+title = "GitHub"
+url = "https://metalhead.club/@gsergey418"
+
 [menu]
 
   [[menu.main]]
