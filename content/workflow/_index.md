@@ -1,5 +1,5 @@
 ---
-title: "Workflow"
+title: "workflow"
 date: 2024-01-15T11:26:06+03:00
 draft: false
 ---
