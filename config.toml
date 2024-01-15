@@ -32,14 +32,19 @@ description = "A backend developer from Moscow"
 # * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
 [[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/gsergey418"
-
-[[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:gsergey418@ro.ru"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-telegram"
+title = "Telegram"
+url = "https://t.me/gsergey418"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/gsergey418"
 
 # [menu]
 # 
