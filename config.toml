@@ -57,19 +57,19 @@ url = "https://github.com/gsergey418"
   [[menu.main]]
     identifier = "stack"
     name = "Tech_Stack"
-    url = "/stack"
+    url = "/stack/"
     weight = 20
 
   [[menu.main]]
     identifier = "workflow"
     name = "Workflow"
-    url = "/workflow"
+    url = "/workflow/"
     weight = 30
 
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
     weight = 40
 
 [taxonomies]
