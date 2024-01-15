@@ -6,7 +6,7 @@ draft: false
 
 # Hello, my name is Sergey
 --------------------------
-I am a backend developer based in Moscow and this is my personal website.
+I am a backend web developer based in Moscow and this is my personal website.
 
 Here I'll post everything you need to know about me such as my contacts, tech stack, workflow, blog etc.
 
