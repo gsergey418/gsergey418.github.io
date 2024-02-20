@@ -1,6 +1,6 @@
 ---
-title: "stack"
-date: 2024-01-15T11:42:42+03:00
+title: "tech_stack"
+date: 2024-02-20T19:19:40+03:00
 draft: false
 ---
 The following is the list of technologies I work with.
