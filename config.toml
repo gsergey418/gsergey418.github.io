@@ -34,7 +34,7 @@ description = "A backend developer from Moscow"
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
-url = "mailto:gsergey418@ro.ru"
+url = "mailto:gsergey418@yandex.ru"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-telegram"
