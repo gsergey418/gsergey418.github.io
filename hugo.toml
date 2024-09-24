@@ -1,6 +1,8 @@
 baseurl = "https://gsergey418.github.io/"
 theme = "hugo-coder"
 
+defaultContentLanguage = "ru"
+
 [markup.highlight]
 style = "github-dark"
 
@@ -8,20 +10,9 @@ style = "github-dark"
   keywords = "developer,personal"
   avatarurl = "images/avatar.jpg"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-
-  since = 2019
+  since = 2024
 
   enableTwemoji = true
-
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
 
 [languages]
   [languages.en]
