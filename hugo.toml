@@ -1,25 +1,12 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://gsergey418.github.io/"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
-
-paginate = 20
-
-[services]
-[services.disqus]
-disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
-  author = "John Doe"
-  info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
+  keywords = "developer,personal"
   avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
@@ -36,6 +23,47 @@ style = "github-dark"
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
+[languages]
+  [languages.en]
+    disabled = false
+    contentDir = "content/en"
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 0
+
+    title = 'Sergey Gorbunov'
+
+    [languages.en.params]
+      author = "Sergey Gorbunov"
+      info = "I'm a backend developer from Moscow."
+      description = "Sergey's personal website"
+    
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = "About"
+        weight = 10
+        url = "about/"
+
+  [languages.ru]
+    disabled = false
+    contentDir = "content/ru"
+    languageCode = 'ru-RU'
+    languageName = 'Русский'
+    weight = 1
+
+    title = 'Сергей Горбунов'
+
+    [languages.ru.params]
+      author = "Сергей Горбунов"
+      info = "Я бэкенд-разработчик из Москвы."
+      description = "Личный сайт Сергея"
+
+    [languages.ru.menus]
+      [[languages.ru.menus.main]]
+        name = "Обо мне"
+        weight = 10
+        url = "about/"
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -44,27 +72,12 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa-brands fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa-brands fa-x-twitter fa-2x"
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
-
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+  url = "https://t.me/gsergey418"
+[[params.social]]
+  name = "E-Mail"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:gsergey418@yandex.ru"
